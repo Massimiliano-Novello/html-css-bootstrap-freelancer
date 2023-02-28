@@ -12,64 +12,126 @@
     <!-- Customer -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
 </head>
 <body>
-    <div class="ms_container">
-        <!-- HEADER -->
-        <header></header> 
-        <!-- /HEADER -->
-
+    <!-- HEADER -->
+    <header></header> 
+    <!-- /HEADER -->
+    <!-- MAIN -->
+    <main>
         <!-- Jumbotron -->
-        <div class="jumbo"></div>
+        <section class="jumbo py-3">
+            <div class="container">
+                <div class="ms_jumbo-content text-center">
+                    <img class="ms_jumbo-img" src="img/avatar.svg" alt="">
+                    <h2>START BOOTSTRAP</h2>
+                    <div class="d-flex justify-content-center align-items-center py-2">
+                        <div class="ms_star-style"></div>                      
+                        <i class="fa-solid fa-star"></i>
+                        <div class="ms_star-style"></div>
+                    </div>
+                    <p>GRAPHIC ARTIST-WEB DESIGNER-ILLUSTRATOR</p>
+                </div>
+            </div>
+        </section>
         <!-- /Jumbotron -->
-
-        <section class="ms_container-large">
+        
+        <section class=" py-3">
             <div class="container">
                 <div class="title">
                     <h2>PORTFOLIO</h2>
                 </div>
-                <div class="row gy-2">
+                <div class="row g-3">
                     <div class="col-12 col-md-6 col-lg-4">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci voluptate atque commodi nulla obcaecati quam officiis odit nemo, reiciendis consequatur dolorem, ducimus veniam? Voluptatum cupiditate nemo praesentium? Ea, laudantium excepturi.
+                        <img src="img/cabin.png" alt="">
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, natus quidem! Accusantium, temporibus odio. Fuga incidunt quia tempora? Officiis cumque commodi incidunt vitae cupiditate ea similique vero laudantium voluptate ab.
+                        <img src="img/cake.png" alt="">
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi repellat soluta veniam? Quod illum tempora, quidem corrupti sit deleniti aliquid modi officia libero, aut minus sint eligendi totam, incidunt qui.
+                        <img src="img/circus.png" alt="">
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officiis quas, modi omnis hic animi, corporis inventore magni eveniet eius quibusdam ipsa unde blanditiis maxime? Culpa, exercitationem! Debitis, deleniti consequuntur?
+                        <img src="img/game.png" alt="">
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere iusto iste natus dolor. Alias cum ab quibusdam itaque voluptates! Nemo atque odit, sit reiciendis ipsa non animi id fugiat itaque?
+                        <img src="img/safe.png" alt="">
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla minus et magnam quidem accusamus enim beatae obcaecati aliquid officiis vitae labore, autem dolores deleniti, cupiditate voluptatem. Totam qui adipisci nihil!
+                        <img src="img/submarine.png" alt="">
                     </div>
                 </div>
             </div>
         </section>
-        <section class="ms_small-container">
-            <div class="container">
-                <h3 class="text-center">About</h3>
-                <div class="row text-center g-3 small">
-                    <div class="col-12 col-md-6"> 
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, eius numquam? Odio nobis optio delectus totam veritatis dolorum rem, illo fugiat impedit, nam exercitationem recusandae. Dicta odit dolorem quisquam earum.
+        <!-- About section -->
+        <section class=" ms_about-section py-3">
+            <div class="ms_small-container">
+                <div class="ms_jumbo-content text-center">
+                    <h2>ABOUT</h2>
+                    <div class="d-flex justify-content-center align-items-center py-2">
+                        <div class="ms_star-style"></div>                      
+                        <i class="fa-solid fa-star"></i>
+                        <div class="ms_star-style"></div>  
                     </div>
-                    <div class="col-12 col-md-6"> 
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe maiores harum nostrum repellendus ipsum et quo ex, nihil sunt eligendi tenetur fuga? Voluptates ad dignissimos exercitationem praesentium architecto tempore numquam?
+                    <div class="row">
+                        <div class="col-12 col-md-6 mb-3">
+                            Freelancer is a free Bootstrap theme created by Start Bootstrap.The download includes the complete source files inclouding HTML,CSS and Javascript as well as optional LESS stylesheets for easy customization.
+                        </div>
+                        <div class="col-12 col-md-6">
+                            Whether you're a student looking to showcase your work, a professional looking to attracts clients, or a graphic artists looking to share your projects, this template is the perfect strating point! 
+                        </div>
+                    </div>
+                    <div class="ms_download">
+                        <a class="btn ms_buttons" href="">
+                            <i class="fa-solid fa-download"></i>
+                            Download
+                        </a>
                     </div>
                 </div>
             </div>
-            <!-- Contact -->
         </section>
-        <section class="ms_small-container contact">
-            <div class="container"></div>
+        <!-- /About section -->
+
+        <!-- Contact -->
+        <section class="py-4">
+            <div class="ms_small-container">
+                <div class="ms_contact-content text-center">
+                    <h2>CONTACT ME</h2>
+                    <div class="d-flex justify-content-center align-items-center py-2">
+                        <div class="ms_star-style-contact"></div>                      
+                        <i class="fa-solid fa-star"></i>
+                        <div class="ms_star-style-contact"></div>  
+                    </div>
+                </div>
+                <form action="">
+                    <div class="form-floating mb-2">
+                        <input type="text" class="form-control" id="floatingname" placeholder="name">
+                        <label for="floatingname">Name</label>
+                    </div>
+
+                    <div class="form-floating mb-2">
+                        <input type="email" class="form-control" id="floatingemail" placeholder="email">
+                        <label for="floatingemail">Email adress</label>
+                    </div>
+
+                    <div class="form-floating mb-2">
+                        <input type="text" class="form-control" id="floatingphone" placeholder="phone number">
+                        <label for="floatingphone">Phone number</label>
+                    </div>
+                    <div class="mb-2">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                                
+                </form>  
+            </div>
         </section>
         <!--/ Contact -->
-
+        
         <!-- Location -->
         <section>
             <div class="container">
@@ -81,9 +143,8 @@
             </div>
         </section>
         <!-- /Location -->
-
-
-    </div>
-    
-</body>
+        
+    </main>
+        
+    </body>
 </html>
