@@ -77,3 +77,23 @@ hr {
 .form-control:focus {
     box-shadow: none;
 }
+
+/* Location section */
+.location {
+    background-color: #3A546D;
+    color: white;
+}
+
+.ms_icons i {
+    font-size: 1rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+}
+
+.ms_link {
+    color: gray;
+    text-decoration: none;
+}
