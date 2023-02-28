@@ -6,14 +6,38 @@ img {
 /* HEADER */
 header {
     height: 100px;
-    background-color: aquamarine;
+    background-color: #2C3E50;
+}
+
+/* Nav bar */
+.ms_logo a {
+    color: white;
+}
+
+.ms_menu {
+    display: none;
+}
+
+.ms_menu-list  {
+    list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+    .hamburger_menu {
+        display: none;
+    }
+
+    .ms_menu {
+        display: flex;
+    }
+    
 }
 
 /* MAIN */
 
 /* Jumbotron */
 .jumbo {
-    background-color: lightblue;
+    background-color: #1ABC9C;
 }
 
 .ms_star-style {
@@ -96,4 +120,11 @@ hr {
 .ms_link {
     color: gray;
     text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    background-color: #2C3E50;
+    font-size: .7rem;
+    color: white;
 }
